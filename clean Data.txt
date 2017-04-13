@@ -1,0 +1,4 @@
+TRUNCATE TABLE `learner_answer`;
+TRUNCATE TABLE `problem_coverage`;
+TRUNCATE TABLE `solution`;
+DELETE FROM problem;

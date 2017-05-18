@@ -54,15 +54,26 @@ class Test_model extends CI_Model
         $query = $this->db->get();
         return $result = $query->result();
     }
-    public function getStudent()
+    public function getStudent($testid)
     {
-        $query = $this->db->query('SELECT username as id, full_name as title FROM users where role="Student"');
+        $query = $this->db->query('SELECT username AS id, full_name AS title FROM users WHERE role="Student" AND username NOT IN (SELECT u.username FROM users u, c_test_subscription s WHERE u.username=s.user_id AND u.role="Student" AND s.test_id='.$testid.')');
         return $result = $query->result();
     }
-    public function getExistgetStudent()
+    public function getExistgetStudent($testid)
     {
-        $query = $this->db->query('SELECT username as id, full_name as title FROM users where role="Student"');
+        $query = $this->db->query('SELECT u.username AS id, u.full_name AS title FROM users u, c_test_subscription s WHERE u.username=s.user_id AND u.role="Student" AND s.test_id='.$testid.'');
         return $result = $query->result();
+    }
+    public function deleteUserSubscription($test_id)
+    {
+        $this->db->where("test_id", $test_id);
+        $this->db->delete('c_test_subscription');
+    }
+    public function saveUserSubscription($subscription_data)
+    {
+        if($subscription_data) {
+            $this->db->insert_batch('c_test_subscription', $subscription_data);
+        }
     }
     function __destruct() {
         $this->db->close();

@@ -32,7 +32,7 @@ $username = $CI->session->userdata('username');
                     <li>
                         <a href="<?=base_url();?>c/Test""><i class="glyphicon glyphicon-calendar"></i> Test Home</a>
                         <ul>
-                            <li><a href="<?=base_url();?>c/Test/add_in_group"> Student Add in Group</a></li>
+                            <li><a href="<?=base_url();?>c/Test/add_in_group_list"> Student Add in Group</a></li>
                             <li><a href="<?=base_url();?>c/Test/test_create"> Test/Group Create</a></li>
                             <li><a href="<?=base_url();?>c/Problem_set"> Problem Set</a></li>
                             <li><a href="<?=base_url();?>c/Contest_home"> Problem List</a></li>

@@ -48,7 +48,6 @@ class Relation_model extends CI_Model
         $query = $this->db->get();
         return $result = $query->result();
     }
-
     public function saveChildRelation($child_data)
     {
         if($child_data) {

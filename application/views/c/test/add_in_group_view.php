@@ -13,7 +13,7 @@ $k=1;
     </div>
     <div class="row">
         <div class="col-md-6">
-            <label class="control-label">All Unsubsidised Users:</label>
+            <label class="control-label">All unsubscribed users:</label>
             <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <?php for ($i = 0; $i < count($child); ++$i) { ?>
                     <p ondragstart="dragStart(event)" draggable="true" id="child<?php echo $k;?>"><?php echo $child[$i]->title;?>
@@ -23,10 +23,9 @@ $k=1;
             </div>
             <i class="glyphicon glyphicon-resize-horizontal left-absolute"></i>
         </div>
-    <form role="form" action="<?=base_url();?>c/Problem_set/save" method="post">
-
+    <form role="form" action="<?=base_url();?>c/Test/update_group_user/<?php echo $this->input->get('id')?>" method="post">
             <div class="col-md-6">
-                <label class="control-label">Subsidised Users:</label>
+                <label class="control-label">Subscribed users for this test:</label>
                 <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <?php for ($i = 0; $i < count($existChild); ++$i) { ?>
                         <p ondragstart="dragStart(event)" draggable="true" id="child<?php echo $k;?>"><?php echo $existChild[$i]->title;?>

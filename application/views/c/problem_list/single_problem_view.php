@@ -44,7 +44,7 @@ $this->load->view('c/common/navbar');
     <?php for ($i = 0; $i < count($solutions); ++$i) { ?>
         <fieldset>
             <legend><b>Solution <?php echo $i+1?>:</b></legend>
-            <p>Solution Code: <a class="pull-right print-none" href="<?=base_url();?>c/Problem_list/solution_edit/<?php echo $solutions[$i]->id;?>?title=<?php echo $single_problem[0]->title; ?>">Edit</a><pre><xmp><?php echo $solutions[$i]->solution_code; ?></xmp></pre></p>
+            <p class="width-100p">Solution Code: <a class="pull-right print-none" href="<?=base_url();?>c/Problem_list/solution_edit/<?php echo $solutions[$i]->id;?>?title=<?php echo $single_problem[0]->title; ?>">Edit</a><pre><xmp><?php echo $solutions[$i]->solution_code; ?></xmp></pre></p>
             <br>
         </fieldset>
     <?php } ?>

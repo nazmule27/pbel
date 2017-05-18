@@ -54,9 +54,25 @@ class Test extends MY_Controller {
 	}
 	public function add_in_group()
 	{
-		$data['child'] = $this->Test_model->getStudent();
-		$data['existChild'] = $this->Test_model->getExistgetStudent();
+		$testid= $this->input->get('id');
+		$data['child'] = $this->Test_model->getStudent($testid);
+		$data['existChild'] = $this->Test_model->getExistgetStudent($testid);
 		$this->load->view('c/test/add_in_group_view', $data);
+	}
+	Public function update_group_user($test_id){
+		$subscription_data =array();
+		for($i=0; $i <= 500; $i++) {
+			$child_id=$this->input->post('child'.$i);
+			if(isset($child_id)){
+				$subscription_data[$i] = array(
+					'test_id' => $test_id,
+					'user_id' => $child_id,
+				);
+			}
+		}
+		$this->Test_model->deleteUserSubscription($test_id);
+		$this->Test_model->saveUserSubscription($subscription_data);
+		$this->load->view('c/success/subscription_submit');
 	}
 
 }

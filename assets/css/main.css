@@ -199,6 +199,7 @@ pre {
 	white-space: -pre-wrap;      /* Opera 4-6 */
 	white-space: -o-pre-wrap;    /* Opera 7 */
 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	font-size: 14px;
 }
 
 
@@ -212,8 +213,15 @@ pre {
 }
 .list-group-item {
 	padding: 7px 10px;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
 }
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+	background: #dedede;
+}
+.active-con {
 	background: #dedede;
 }
 #tree {
@@ -235,14 +243,16 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	width: 100%;
 }
 .open a:hover, #tree ul li a:hover, #tree ul li li a:hover, #tree ul li a:focus, #tree ul li li a:focus {
-	background:rgba(0,0,0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
 	text-decoration: none;
 	border-radius: 2px;
 }
 .font14 {
 	font-size: 14px;
 }
-
+.CodeMirror {
+	border: solid 1px #ccc;
+}
 
 button.accordion {
 	background-color: #eee;

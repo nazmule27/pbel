@@ -16,6 +16,11 @@
     <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/js/data_table/jquery.dataTables.css"/>
     <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/js/datetimepicker/jquery.datetimepicker.css"/>
     <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/js/treemenu/acmebase.css"/>
+    <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/codemirror/lib/codemirror.css"/>
+    <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/codemirror/lib/abcdef.css"/>
+    <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/codemirror/addon/search/matchesonscrollbar.css"/>
+    <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/codemirror/addon/fold/foldgutter.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="<?/*=base_url();*/?>assets/js/codemirror/codemirror.css"/>-->
     <style>
         body {
             padding-top: 80px;

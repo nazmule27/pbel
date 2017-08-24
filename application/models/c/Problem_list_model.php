@@ -9,6 +9,7 @@ class Problem_list_model extends CI_Model
     }
     public function selectProblem()
     {
+        $this->db->where('language="en"');
         $query = $this->db->get('c_problem');
         return $result = $query->result();
     }

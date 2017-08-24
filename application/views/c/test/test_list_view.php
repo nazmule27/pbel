@@ -7,7 +7,7 @@ $this->load->view('c/common/navbar');
 <div class="col-md-9 col-sm-8 col-xs-12">
     <h3>Test/Group List for Subscription</h3>
     <hr>
-    <table id="problems" class="display " cellspacing="0" width="100%" >
+    <table id="test_table" class="display " cellspacing="0" width="100%" >
         <thead>
         <tr>
             <th>Test Id</th>

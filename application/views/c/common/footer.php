@@ -13,6 +13,9 @@
         <script type="text/javascript" src="<?=base_url();?>assets/js/data_table/jquery.dataTables.min.js"></script>
         <script type="text/javascript" src="<?=base_url();?>assets/js/datetimepicker/jquery.datetimepicker.js"></script>
         <script type="text/javascript" src="<?=base_url();?>assets/js/jquery.countdown.min.js"></script>
+        <!--<script type="text/javascript" src="<?/*=base_url();*/?>assets/js/codemirror/codemirror.js"></script>
+        <script type="text/javascript" src="<?/*=base_url();*/?>assets/js/codemirror/clike.js"></script>
+        <script type="text/javascript" src="<?/*=base_url();*/?>assets/js/codemirror/emacs.js"></script>-->
         <script type="text/javascript" src="<?=base_url();?>assets/js/main.js"></script>
     </body>
 </html>

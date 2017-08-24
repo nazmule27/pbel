@@ -81,19 +81,22 @@
     text-align: left;
   }
   nav ul li a:hover {
-    background-color: #8ad648;
+    background-color: #a6aa0000;
   }
   nav>ul>li {
     -webkit-border-top-left-radius: 10px;
     -moz-border-radius-topleft: 10px;
     border-top-left-radius: 10px;
     background: #7f7e7e;
-    border-color: #8ad648;
+    border-color: #a6aa0000;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100 */
     background: -moz-linear-gradient(left,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+  }
+  .active {
+    background: #7f7e7e;
   }
   nav>ul>li>a {
     -webkit-border-radius: 6px 6px 0 0;

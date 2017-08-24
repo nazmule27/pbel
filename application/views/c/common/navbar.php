@@ -9,11 +9,11 @@ $username = $CI->session->userdata('username');
             <nav>
                 <ul>
                     <li>
-                        <a href="<?=base_url();?>c/Home"><i class="glyphicon glyphicon-home"></i> Home</a>
+                        <a <?php if($this->uri->segment(2)=="Home"){echo 'class="active"';}?> href="<?=base_url();?>c/Home"><i class="glyphicon glyphicon-home"></i> Home</a>
                     </li>
                     <li>
-                        <a href="<?=base_url();?>c/Tutorial/index/1"><i class="glyphicon glyphicon-book"></i> Content</a>
                         <?php if(($role == 'Admin')){?>
+                            <a href="<?=base_url();?>c/Tutorial/index/1"><i class="glyphicon glyphicon-book"></i> Content</a>
                         <ul>
                             <li><a href="<?=base_url();?>c/Section/index"> Section</a></li>
                             <li><a href="<?=base_url();?>c/Sub_section/index"> Sub Section</a></li>
@@ -24,25 +24,26 @@ $username = $CI->session->userdata('username');
                     </li>
                     <?php if(($role == 'Admin')){?>
                     <li>
-                        <a href="<?=base_url();?>c/Problem_submit"><i class="glyphicon glyphicon-pencil"></i> Problem Submit</a>
+                        <a <?php if($this->uri->segment(2)=="Problem_submit"){echo 'class="active"';}?> href="<?=base_url();?>c/Problem_submit"><i class="glyphicon glyphicon-pencil"></i> Problem Submit</a>
                     </li>
                     <li>
-                        <a href="<?=base_url();?>c/Problem_list"><i class=" glyphicon glyphicon-th-list"></i> Problem List</a>
+                        <a <?php if($this->uri->segment(2)=="Problem_list"){echo 'class="active"';}?> href="<?=base_url();?>c/Problem_list"><i class=" glyphicon glyphicon-th-list"></i> Problem Bank</a>
                     </li>
                     <li>
-                        <a href="<?=base_url();?>c/Test""><i class="glyphicon glyphicon-calendar"></i> Test Home</a>
+                        <a <?php if($this->uri->segment(2)=="Test"){echo 'class="active"';}?> href="<?=base_url();?>c/Test""><i class="glyphicon glyphicon-calendar"></i> Test Home</a>
                         <ul>
                             <li><a href="<?=base_url();?>c/Test/add_in_group_list"> Student Add in Group</a></li>
                             <li><a href="<?=base_url();?>c/Test/test_create"> Test/Group Create</a></li>
                             <li><a href="<?=base_url();?>c/Problem_set"> Problem Set</a></li>
+                            <li><a href="<?=base_url();?>c/Pick_problem"> Pick from Problem Bank</a></li>
                             <li><a href="<?=base_url();?>c/Contest_home"> Problem List</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="<?=base_url();?>c/Evaluation"><i class="glyphicon glyphicon-check"></i> Evaluation</a>
-                    </li>
-                    <li>
-                        <a href="<?=base_url();?>c/Evaluation/export"><i class="glyphicon glyphicon-share-alt"></i> Export</a>
+                        <a <?php if($this->uri->segment(2)=="Evaluation"){echo 'class="active"';}?> href="<?=base_url();?>c/Evaluation"><i class="glyphicon glyphicon-check"></i> Evaluation</a>
+                        <ul>
+                            <li><a href="<?=base_url();?>c/Evaluation/export"><i class="glyphicon glyphicon-share-alt"></i> Export</a></li>
+                        </ul>
                     </li>
                     <?php } ?>
                     <?php if(($role == 'Student')){?>
@@ -50,13 +51,13 @@ $username = $CI->session->userdata('username');
                         <a href="<?/*=base_url();*/?>c/Learning"><i class="glyphicon glyphicon-folder-open"></i> Problem Based Learning</a>
                     </li>-->
                     <li>
-                        <a href="<?=base_url();?>c/Chapter_content"><i class="glyphicon glyphicon-folder-open"></i> Chapter Content</a>
+                        <a <?php if($this->uri->segment(2)=="Chapter_content"){echo 'class="active"';}?> href="<?=base_url();?>c/Chapter_content"><i class="glyphicon glyphicon-folder-open"></i> Chapter Content</a>
                     </li>
                     <li>
-                        <a href="<?=base_url();?>c/Test_subscribe"><i class="glyphicon glyphicon-calendar"></i> Test Subscribe</a>
+                        <a <?php if($this->uri->segment(2)=="Test_subscribe"){echo 'class="active"';}?> href="<?=base_url();?>c/Test_subscribe"><i class="glyphicon glyphicon-calendar"></i> Test Subscribe</a>
                     </li>
                     <li>
-                        <a href="<?=base_url();?>c/Give_test"><i class=" glyphicon glyphicon-pencil"></i> Give Test</a>
+                        <a <?php if($this->uri->segment(2)=="Give_test"){echo 'class="active"';}?> href="<?=base_url();?>c/Give_test"><i class=" glyphicon glyphicon-pencil"></i> Give Test</a>
                     </li>
                     <?php } ?>
                     <li>

@@ -30,7 +30,7 @@ $username = $CI->session->userdata('username');
                         <a <?php if($this->uri->segment(2)=="Problem_list"){echo 'class="active"';}?> href="<?=base_url();?>c/Problem_list"><i class=" glyphicon glyphicon-th-list"></i> Problem Bank</a>
                     </li>
                     <li>
-                        <a <?php if($this->uri->segment(2)=="Test"){echo 'class="active"';}?> href="<?=base_url();?>c/Test""><i class="glyphicon glyphicon-calendar"></i> Test Home</a>
+                        <a <?php if($this->uri->segment(2)=="Test"){echo 'class="active"';}?> href="<?=base_url();?>c/Test"><i class="glyphicon glyphicon-calendar"></i> Test Home</a>
                         <ul>
                             <li><a href="<?=base_url();?>c/Test/add_in_group_list"> Student Add in Group</a></li>
                             <li><a href="<?=base_url();?>c/Test/test_create"> Test/Group Create</a></li>

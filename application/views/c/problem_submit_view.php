@@ -96,19 +96,19 @@ $this->load->view('c/common/navbar');
 $this->load->view('c/common/footer');
 ?>
 <script type="text/javascript" src="<?=base_url();?>assets/codemirror/lib/codemirror.js"></script>
-<script src="<?=base_url();?>assets/codemirror/lib/clike.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/fold/foldcode.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/fold/foldgutter.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/fold/brace-fold.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/fold/xml-fold.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/fold/indent-fold.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/fold/comment-fold.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/edit/matchbrackets.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/selection/active-line.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/hint/show-hint.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/hint/anyword-hint.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/search/searchcursor.js"></script>
-<script src="<?=base_url();?>assets/codemirror/addon/search/search.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/lib/clike.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/foldcode.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/foldgutter.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/brace-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/xml-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/indent-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/comment-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/edit/matchbrackets.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/selection/active-line.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/hint/show-hint.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/hint/anyword-hint.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/search/searchcursor.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/search/search.js"></script>
 <script type="text/javascript">
     CodeMirror.commands.autocomplete = function(cm) {
         cm.showHint({hint: CodeMirror.hint.anyword});

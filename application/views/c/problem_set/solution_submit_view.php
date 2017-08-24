@@ -32,7 +32,7 @@ $this->load->view('c/common/navbar');
                 <legend> Solution: </legend>
                 <div class="form-group required">
                     <label class="control-label">Standard Code:</label>
-                    <textarea id="solution_code" name="solution_code" class="form-control min-h-130" placeholder="Tell standard code" required></textarea>
+                    <textarea id="solution_code" name="solution_code" class="form-control min-h-130 codemirror-textarea" placeholder="Tell standard code" required></textarea>
                 </div>
                 <button id="solution_code_btn" type="button" class="btn btn-default pull-right"><i class="glyphicon glyphicon-play color-green"></i> Run</button>
                 <br>
@@ -53,7 +53,40 @@ $this->load->view('c/common/navbar');
 <?php
 $this->load->view('c/common/footer');
 ?>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/lib/codemirror.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/lib/clike.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/foldcode.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/foldgutter.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/brace-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/xml-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/indent-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/fold/comment-fold.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/edit/matchbrackets.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/selection/active-line.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/hint/show-hint.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/hint/anyword-hint.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/search/searchcursor.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/codemirror/addon/search/search.js"></script>
 <script type="text/javascript">
+    CodeMirror.commands.autocomplete = function(cm) {
+        cm.showHint({hint: CodeMirror.hint.anyword});
+    }
+    var code = $(".codemirror-textarea")[0];
+    var editor = CodeMirror.fromTextArea(code, {
+        mode: "text/x-csrc",
+        lineNumbers : true,
+        matchBrackets: true,
+        styleActiveLine: true,
+        extraKeys: {"Ctrl-Q": function(cm){ cm.foldCode(cm.getCursor()); }, "Ctrl-Space": "autocomplete", "Alt-F": "findPersistent"},
+        foldGutter: true,
+        gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
+        /*theme:"abcdef",*/
+
+    });
+    $(CodeMirror.fromTextArea).keyup(function(e){
+        var textdiv=document.getElementById("solution_code");
+        textdiv.innerHTML=editor.getValue();
+    });
     $("#solution_code_btn").click(function() {
         $("#loading").show();
         $("#result").html("");

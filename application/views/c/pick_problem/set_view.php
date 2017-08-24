@@ -96,7 +96,7 @@ $this->load->view('c/common/navbar');
                 <label class="control-label">Standard Code:</label>
                 <textarea id="solution_code" name="solution_code" class="form-control min-h-130" placeholder="Tell standard code" required><?php echo  $problem_solution[0]->solution_code;?></textarea>
             </div>
-            <button id="submit_code" type="button" class="btn btn-default pull-right"><i class="glyphicon glyphicon-play"></i> Run</button>
+            <button id="submit_code" type="button" class="btn btn-default pull-right"><i class="glyphicon glyphicon-play color-green"></i> Run</button>
             <br>
             <br>
             <center><img id="loading" style="display: none;" src="<?=base_url();?>assets/img/loading.gif" width="100px" alt="loading"></center>

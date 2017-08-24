@@ -50,7 +50,7 @@ $username = $CI->session->userdata('username');
         </div>
         <div class="row">
             <div class="form-group col-md-12">
-                <button id="solution_code_btn" type="button" class="btn btn-default pull-right"><i class="glyphicon glyphicon-play"></i> Run</button>
+                <button id="solution_code_btn" type="button" class="btn btn-default pull-right"><i class="glyphicon glyphicon-play color-green"></i> Run</button>
             </div>
         </div>
         <center><img id="loading" style="display: none;" src="<?=base_url();?>assets/img/loading.gif" width="100px" alt="loading"></center>

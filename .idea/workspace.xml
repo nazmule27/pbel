@@ -2,100 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ee88e2-9c5d-4acb-b04b-b277ac1c5a86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/c/Pick_problem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/c/Pick_problem_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/lib/abcdef.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/selection/active-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/scroll/annotatescrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/anyword-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/display/autorefresh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/brace-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/lib/clike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/edit/closebrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/edit/closetag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/lib/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/lib/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/coffeescript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/runmode/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/comment-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/comment/comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/comment/continuecomment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/edit/continuelist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/css-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/css-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/dialog/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/dialog/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/keymap/emacs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/foldcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/foldgutter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/foldgutter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/display/fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/display/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/wrap/hardwrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/html-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/html-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/indent-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/c/pick_problem/index_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/javascript-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/javascript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/json-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/search/jump-to-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/lint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/mode/loadmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/selection/mark-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/markdown-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/search/match-highlighter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/edit/matchbrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/search/matchesonscrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/search/matchesonscrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/edit/matchtags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/merge/merge.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/merge/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/mode/multiplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/mode/multiplex_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/mode/overlay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/display/panel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/display/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/display/rulers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/runmode/runmode-standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/runmode/runmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/runmode/runmode.node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/scroll/scrollpastend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/search/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/search/searchcursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/selection/selection-pointer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/c/pick_problem/set_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/show-hint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/show-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/mode/simple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/scroll/simplescrollbars.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/scroll/simplescrollbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/sql-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/keymap/sublime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/tern/tern.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/tern/tern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/edit/trailingspace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/keymap/vim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/tern/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/fold/xml-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/hint/xml-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/codemirror/addon/lint/yaml-lint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/c/Problem_list_model.php" afterPath="$PROJECT_DIR$/application/models/c/Problem_list_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/common/chapter_nav.php" afterPath="$PROJECT_DIR$/application/views/c/common/chapter_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/dashboard_view.php" afterPath="$PROJECT_DIR$/application/views/dashboard_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/common/footer.php" afterPath="$PROJECT_DIR$/application/views/c/common/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/common/header.php" afterPath="$PROJECT_DIR$/application/views/c/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/home_view.php" afterPath="$PROJECT_DIR$/application/views/c/home_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index.html" afterPath="$PROJECT_DIR$/application/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/nav/_css/nav.css" afterPath="$PROJECT_DIR$/assets/js/nav/_css/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/common/navbar.php" afterPath="$PROJECT_DIR$/application/views/c/common/navbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pbel.sql" afterPath="$PROJECT_DIR$/pbel.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/problem_submit_view.php" afterPath="$PROJECT_DIR$/application/views/c/problem_submit_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gcc/prog.c" afterPath="$PROJECT_DIR$/gcc/prog.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/test/test_list_view.php" afterPath="$PROJECT_DIR$/application/views/c/test/test_list_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/pick_problem/set_view.php" afterPath="$PROJECT_DIR$/application/views/c/pick_problem/set_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/problem_set/set_view.php" afterPath="$PROJECT_DIR$/application/views/c/problem_set/set_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/chapter_content/single_problem_view.php" afterPath="$PROJECT_DIR$/application/views/c/chapter_content/single_problem_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/learning/single_problem_view.php" afterPath="$PROJECT_DIR$/application/views/c/learning/single_problem_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/problem_list/solution_submit_edit.php" afterPath="$PROJECT_DIR$/application/views/c/problem_list/solution_submit_edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/give_test/solution_submit_view.php" afterPath="$PROJECT_DIR$/application/views/c/give_test/solution_submit_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/problem_list/solution_submit_view.php" afterPath="$PROJECT_DIR$/application/views/c/problem_list/solution_submit_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/c/problem_set/solution_submit_view.php" afterPath="$PROJECT_DIR$/application/views/c/problem_set/solution_submit_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pbel.iws" />
@@ -118,21 +35,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Problem_submit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/c/Problem_submit.php">
+      <file leaf-file-name="single_problem_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/c/chapter_content/single_problem_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="52" column="142" selection-start-line="52" selection-start-column="142" selection-end-line="52" selection-end-column="142" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem_submit_view.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/c/problem_submit_view.php">
+      <file leaf-file-name="solution_submit_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/c/give_test/solution_submit_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58391607">
-              <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="48" column="142" selection-start-line="48" selection-start-column="142" selection-end-line="48" selection-end-column="142" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single_problem_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/c/learning/single_problem_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="52" column="142" selection-start-line="52" selection-start-column="142" selection-end-line="52" selection-end-column="142" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/c/pick_problem/set_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="98" column="132" selection-start-line="98" selection-start-column="132" selection-end-line="98" selection-end-column="132" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution_submit_edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/c/problem_list/solution_submit_edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="27" column="142" selection-start-line="27" selection-start-column="142" selection-end-line="27" selection-end-column="142" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution_submit_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/c/problem_list/solution_submit_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="35" column="142" selection-start-line="35" selection-start-column="142" selection-end-line="35" selection-end-column="142" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/c/problem_set/set_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="92" column="132" selection-start-line="92" selection-start-column="132" selection-end-line="92" selection-end-column="132" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution_submit_view.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/c/problem_set/solution_submit_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35519126">
+              <caret line="36" column="142" selection-start-line="36" selection-start-column="142" selection-end-line="36" selection-end-column="142" />
               <folding />
             </state>
           </provider>
@@ -154,11 +131,8 @@
         <option value="$PROJECT_DIR$/application/views/c/test/add_in_group_view.php" />
         <option value="$PROJECT_DIR$/application/views/c/pick_problem/index_view.php" />
         <option value="$PROJECT_DIR$/application/controllers/c/Pick_problem.php" />
-        <option value="$PROJECT_DIR$/application/views/c/pick_problem/set_view.php" />
         <option value="$PROJECT_DIR$/application/models/c/Pick_problem_model.php" />
         <option value="$PROJECT_DIR$/application/views/c/test/test_list_view.php" />
-        <option value="$PROJECT_DIR$/application/views/c/problem_list/solution_submit_view.php" />
-        <option value="$PROJECT_DIR$/application/views/c/problem_set/set_view.php" />
         <option value="$PROJECT_DIR$/application/views/c/common/footer.php" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/application/views/c/home_view.php" />
@@ -170,10 +144,18 @@
         <option value="$PROJECT_DIR$/application/views/c/common/navbar.php" />
         <option value="$PROJECT_DIR$/application/models/c/Problem_list_model.php" />
         <option value="$PROJECT_DIR$/application/index.html" />
+        <option value="$PROJECT_DIR$/assets/codemirror/addon/fold/foldgutter.css" />
+        <option value="$PROJECT_DIR$/application/views/c/common/header.php" />
         <option value="$PROJECT_DIR$/application/views/c/problem_submit_view.php" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/application/views/c/common/header.php" />
-        <option value="$PROJECT_DIR$/assets/codemirror/addon/fold/foldgutter.css" />
+        <option value="$PROJECT_DIR$/application/views/c/chapter_content/single_problem_view.php" />
+        <option value="$PROJECT_DIR$/application/views/c/give_test/solution_submit_view.php" />
+        <option value="$PROJECT_DIR$/application/views/c/learning/single_problem_view.php" />
+        <option value="$PROJECT_DIR$/application/views/c/pick_problem/set_view.php" />
+        <option value="$PROJECT_DIR$/application/views/c/problem_list/solution_submit_edit.php" />
+        <option value="$PROJECT_DIR$/application/views/c/problem_list/solution_submit_view.php" />
+        <option value="$PROJECT_DIR$/application/views/c/problem_set/set_view.php" />
+        <option value="$PROJECT_DIR$/application/views/c/problem_set/solution_submit_view.php" />
       </list>
     </option>
   </component>
@@ -216,7 +198,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,6 +213,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pbel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pbel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pbel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pbel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pbel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text_area" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,6 +378,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pbel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pbel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -385,6 +432,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -451,6 +499,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -461,7 +510,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -482,41 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/c/Solution_submit_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38554215">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8141136">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/c/Test_subscribe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.024096385">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0034423">
@@ -535,13 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/c/learning/single_problem_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18072289">
-          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -636,31 +642,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/c/pick_problem/set_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="177" selection-start-line="96" selection-start-column="177" selection-end-line="96" selection-end-column="177" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/c/problem_list/problem_edit_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5025818">
           <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/c/problem_list/solution_submit_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35628226">
-          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/c/problem_set/set_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39492753">
-          <caret line="110" column="2" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -766,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2972028">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="65" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,15 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/c/Problem_submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2972028">
           <caret line="10" column="67" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,30 +793,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22742476">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/text_area/textarea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/c/common/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58391607">
-          <caret line="21" column="104" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="104" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="111" selection-start-line="21" selection-start-column="111" selection-end-line="21" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14886165">
-          <caret line="253" column="26" selection-start-line="253" selection-start-column="26" selection-end-line="253" selection-end-column="26" />
+        <state vertical-scroll-proportion="-4.0740743">
+          <caret line="256" column="17" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/c/problem_submit_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58391607">
-          <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="78" column="121" selection-start-line="78" selection-start-column="121" selection-end-line="78" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/c/Problem_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/chapter_content/single_problem_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="52" column="142" selection-start-line="52" selection-start-column="142" selection-end-line="52" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/give_test/solution_submit_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="48" column="142" selection-start-line="48" selection-start-column="142" selection-end-line="48" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/learning/single_problem_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="52" column="142" selection-start-line="52" selection-start-column="142" selection-end-line="52" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/pick_problem/set_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="98" column="132" selection-start-line="98" selection-start-column="132" selection-end-line="98" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/problem_list/solution_submit_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="27" column="142" selection-start-line="27" selection-start-column="142" selection-end-line="27" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/problem_list/solution_submit_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="35" column="142" selection-start-line="35" selection-start-column="142" selection-end-line="35" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/problem_set/set_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="92" column="132" selection-start-line="92" selection-start-column="132" selection-end-line="92" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/c/problem_set/solution_submit_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35519126">
+          <caret line="36" column="142" selection-start-line="36" selection-start-column="142" selection-end-line="36" selection-end-column="142" />
           <folding />
         </state>
       </provider>

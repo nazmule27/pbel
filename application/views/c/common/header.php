@@ -20,7 +20,6 @@
     <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/codemirror/lib/abcdef.css"/>
     <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/codemirror/addon/search/matchesonscrollbar.css"/>
     <link type="text/css" rel="stylesheet" href="<?=base_url();?>assets/codemirror/addon/fold/foldgutter.css"/>
-    <!--<link type="text/css" rel="stylesheet" href="<?/*=base_url();*/?>assets/js/codemirror/codemirror.css"/>-->
     <style>
         body {
             padding-top: 80px;

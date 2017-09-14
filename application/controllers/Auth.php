@@ -1,10 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * This controller can be accessed 
+ * This controller can be accessed
  * for (all) non logged in users
  */
-class Auth extends MY_Controller {	
+class Auth extends MY_Controller {
 
 	public function logged_in_check()
 	{
@@ -14,15 +14,15 @@ class Auth extends MY_Controller {
 	}
 
 	public function index()
-	{	
+	{
 		$this->logged_in_check();
-		
+
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules("username", "Username", "trim|required");
 		$this->form_validation->set_rules("password", "Password", "trim|required");
-		if ($this->form_validation->run() == true) 
+		if ($this->form_validation->run() == true)
 		{
-			$this->load->model('auth_model', 'auth');	
+			$this->load->model('auth_model', 'auth');
 			// check the username & password of user
 			$status = $this->auth->validate();
 			if ($status == ERR_INVALID_USERNAME) {
